@@ -1,0 +1,8 @@
+.idea/
+cypress/
+.Trash-0
+node_modules/
+src/tests/mochawesome-report/
+src/tests/videos/
+src/tests/screenshots/
+npm-debug.log

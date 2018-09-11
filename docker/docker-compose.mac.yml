@@ -1,0 +1,15 @@
+version: '3'
+services:
+  node_hadi_cypress:
+    image: hadi_cypress:latest
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    volumes:
+    - "../:${APP_PATH}:delegated"
+    networks:
+    - cypress_docker_network
+
+networks:
+  cypress_docker_network:
+    driver: bridge

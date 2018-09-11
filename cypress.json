@@ -1,0 +1,18 @@
+{
+  "projectId": "twbm6a",
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "reportFilename": "report-summary",
+    "reportDir": "src/tests/mochawesome-report",
+    "assetsDir": "src/tests/mochawesome-report/assets",
+    "toConsole": true
+  },
+  "video": true,
+  "trashAssetsBeforeRuns": true,
+  "fixturesFolder": "src/tests/fixtures",
+  "integrationFolder": "src/tests/integration",
+  "screenshotsFolder": "src/tests/screenshots",
+  "videosFolder": "src/tests/videos",
+  "supportFile": "src/tests/support/index.js",
+  "pluginsFile": "src/tests/plugins/index.js"
+}

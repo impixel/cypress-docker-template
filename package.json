@@ -1,0 +1,26 @@
+{
+  "name": "cypress-docker-template",
+  "version": "1.0.0",
+  "description": "Cypress Docker Template - This Could be used in any web application to create and run integration tests",
+  "scripts": {
+    "cypress": "cypress run",
+    "cypress-chrome": "cypress run --browser chrome",
+    "cypress-watch": "chokidar 'src/tests/integration/*.js' /bin/bash -c  'npm run cypress'"
+  },
+  "author": "Hadi Tajallaei",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/impixel/cypress-docker-template"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@cypress/watch-preprocessor": "^1.0.0",
+    "chokidar": "^2.0.4",
+    "chokidar-cli": "^1.2.1",
+    "cypress": "^3.1.0",
+    "kotlin": "^1.2.61",
+    "mocha": "^5.2.0",
+    "mochawesome": "^3.0.3"
+  }
+}
