@@ -9,7 +9,9 @@ context('Actions', () => {
         .find('input#lst-ib')
         .type('university of salford');
 
+        cy.wait(1000);
         cy.get('form#tsf').submit();
+        cy.wait(1000);
 
         cy.get('.kp-blk.knowledge-panel.Wnoohf.OJXvsb').should(
                 'contain',

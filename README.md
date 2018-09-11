@@ -27,6 +27,10 @@ It won't allow video capturing if you use Chrome browser instead of default Elec
 $: npm run cypress-chrome
 ```
 
+<p align='center'>
+<img src='https://user-images.githubusercontent.com/5575209/45371029-66b1d680-b5e1-11e8-8c61-2d247d38a738.gif'>
+</p>
+
 ### Contributors
 If you wish to modify or contribute to this repository, please fork and create a pull request to the master branch.
 

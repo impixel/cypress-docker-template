@@ -45,6 +45,8 @@ ENV npm_config_loglevel warn
 # Allow installing when the main user is root
 ENV npm_config_unsafe_perm true
 
+ENV SHELL=/bin/bash
+
 RUN mkdir -p /var/cypress
 
 WORKDIR /var/cypress
