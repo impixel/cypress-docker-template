@@ -28,8 +28,8 @@ $: npm run cypress-chrome
 ```
 
 <p align='center'>
-<img style='position:relative; width: 50%; left: 0;' src='https://user-images.githubusercontent.com/5575209/45371322-3585d600-b5e2-11e8-8eeb-d1cf41b393dd.png'>
-<img style='position:relative; width: 50%; right: 0;' src='https://user-images.githubusercontent.com/5575209/45371029-66b1d680-b5e1-11e8-8c61-2d247d38a738.gif'>
+<img style='position:relative; width: 40%; left: 0;' src='https://user-images.githubusercontent.com/5575209/45371322-3585d600-b5e2-11e8-8eeb-d1cf41b393dd.png'>
+<img style='position:relative; width: 58%; right: 0;' src='https://user-images.githubusercontent.com/5575209/45371029-66b1d680-b5e1-11e8-8c61-2d247d38a738.gif'>
 </p>
 
 ### Contributors
